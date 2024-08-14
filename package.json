@@ -1,0 +1,45 @@
+{
+  "name": "cuyanimelist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "nodemon": "nodemon --exec next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@phosphor-icons/react": "^2.0.13",
+    "@prisma/client": "^5.18.0",
+    "eslint-config-next": "^14.0.3",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "nodemon": "^3.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-youtube": "^10.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "prisma": "^5.18.0",
+    "tailwindcss": "^3"
+  },
+  "description": "web anime",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganringmaulida/GanANime.git"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "ganring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganringmaulida/GanANime/issues"
+  },
+  "homepage": "https://github.com/Ganringmaulida/GanANime#readme"
+}
